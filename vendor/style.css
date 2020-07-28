@@ -1,0 +1,85 @@
+.logo img {
+    width:50%;
+}
+
+body {
+    padding-bottom: 20px;
+    background-color: #ddd;
+    color:#666;
+}
+
+.container-main {
+    background-color: #ddd;
+    border-radius: 10px;
+}
+
+.logo {
+    padding: 15px 0;
+}
+
+.navbar {
+    margin-bottom: 20px;
+    border-radius: 0;
+    border: none;
+}
+
+/* carousel */
+#myCarousel {
+    margin-bottom: 0px;
+    height:400px;
+}
+
+.carousel , .carousel-inner img{
+    top:20px;
+    position: relative;
+}
+
+#myCarousel .carousel-caption {
+    left: 0;
+    right: 0;
+    bottom: 0;
+    text-align: left;
+    padding: 5px;
+    background: rgba(0, 0, 0, 0.6);
+    text-shadow: none;
+}
+
+#myCarousel .carousel-caption h4 {
+    color: #fff;
+}
+
+#myCarousel .list-group {
+    position: absolute;
+    top: 0;
+    right:0;
+    margin-right: -15px !important;
+}
+
+.slide-list .list-group-item {
+    border-radius: 0;
+    cursor: pointer;
+}
+
+.slide-list .list-group-item img {
+    width:90%;
+}
+
+.slide-list .list-group-item h4 {
+    margin: 0 0 0 6px;    
+}
+
+.well h4, .carousel h4 a, .blog-post h3, .font-special{
+    font-family: 'Oswald',sans-serif;
+    font-weight: bold;
+}
+
+ .list-group h4 {
+     font-family: 'Oswald',sans-serif;
+     font-size:18px;
+ } 
+footer .container{
+    padding: 20px;
+    background: #ddd;
+    color:#666;
+    font-family: 'Oswald',sans-serif;
+}
